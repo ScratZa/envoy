@@ -1,0 +1,71 @@
+# .NET Core build files
+**/bin/
+**/obj/
+
+# Visual Studio files
+**/.vs/
+
+# Visual Studio Code files
+.vscode/
+
+# User-specific files
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Other files and folders to ignore
+*.pidb
+*.svclog
+*.dbmdl
+*.jfm
+*.pfx
+*.publishsettings
+
+# R# files
+/_ReSharper.*/
+*.[Rr]e[Ss]harper
+
+# TeamCity files
+_TeamCity*
+
+# DotCover is a Code Coverage Tool
+*.dotCover
+
+# NCrunch
+_NCrunch_*
+.*crunch*.local.xml
+
+# Azure DevOps specific locale file
+*.locale.json
+
+# Files built by Visual Studio
+*_i.c
+*_p.c
+*_h.h
+*.ilk
+*.meta
+*.ncb
+*.pch
+*.pdb
+*.pgc
+*.pgd
+*.rsp
+*.sbr
+*.tlb
+*.tli
+*.tlh
+*.tmp
+*.tmp_proj
+*.log
+*.vspscc
+*.vssscc
+.builds
+*.pidb
+*.svclog
+*.scc
+
+# Docker files
+.docker/
+
+# End of .gitignore

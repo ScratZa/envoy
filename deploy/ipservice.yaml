@@ -1,0 +1,20 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: ipservice
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: ipservice
+  template:
+    metadata:
+      labels:
+        app: ipservice
+    spec:
+      containers:
+      - name: ipservice
+        image: ipservice:latest
+        imagePullPolicy: IfNotPresent  # This line is important
+        ports:
+        - containerPort: 80
